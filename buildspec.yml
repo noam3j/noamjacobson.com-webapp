@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Doing install step...
+  build:
+    commands:
+      - echo Doing build step...
+artifacts:
+  files:
+    - "index.html"
